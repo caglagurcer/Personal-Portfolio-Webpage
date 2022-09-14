@@ -114,7 +114,7 @@ img{
 }
 .project {
     background: var(--bg);
-    box-shadow: 1px 2px 2px var(--dark);
+    box-shadow: 1px 10px 14px var(--dark);
     border-radius: 2px;
     text-align: center;
 }
@@ -135,20 +135,13 @@ img{
     padding:1.4rem;
     margin-bottom:5rem;
     border: 1px solid #c6b8da;
-    box-shadow: 0 12px 10px 0 var(--dark),0 17px 40px 0 #bbb8b8;
+    box-shadow: 0 12px 10px 0 var(--dark),0 17px 40px 0 var(--soft);
 }
 
-.contact-details:hover{
-    transform: translateY(8px);
-}
 .contact-details {
-    font-size: 2.4rem;
-    text-shadow: 2px 2px 1px #1f1f1f;
-    transition: 0.3s ease-out;
-    transition-property: all;
-    transition-duration: 0.3s;
-    transition-timing-function: ease-out;
-    transition-delay: 0s;
+    font-size: 2.2rem;
+    padding-right: 1.2rem;
+    text-shadow: 2px 2px 1px #000;
 }
 
 footer{
